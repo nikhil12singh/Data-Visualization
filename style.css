@@ -1,0 +1,33 @@
+h1 {
+    text-align: 'center'
+}
+
+#viz-client-container {
+    align-self: center;
+    align-items: center;
+    padding-left: 20% !important;
+}
+
+.tableauPlaceholder {
+    padding-left: 0%;
+}
+
+div#toolbar-container {
+    visibility: hidden !important;
+}
+
+.tab-toolbar .tab-nonVizItems {
+    visibility: hidden;
+}
+
+.tab-nonVizItems>div+div+div+div+div {
+    visibility: hidden;
+}
+
+.tab-nonVizItems>div+div+div {
+    visibility: hidden;
+}
+
+.tab-nonVizItems>div+div+div+div {
+    visibility: visible;
+}
