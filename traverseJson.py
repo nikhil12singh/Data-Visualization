@@ -9,9 +9,8 @@ with open('Output5.json') as json_file:
     #str1.write(str1);
 
     for obj in data:
-    	
-text_file = open("final.json", "w")
-text_file.write(str1)
-print (str1)
-text_file.close()
+    	text_file = open("final.json", "w")
+	text_file.write(str1)
+	print (str1)
+	text_file.close()
 	
